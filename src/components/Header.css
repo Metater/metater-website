@@ -3,25 +3,47 @@
     src: url("../fonts/AAbsoluteEmpire-EaXpg.ttf");
     font-family: 'AAbsoluteEmpire';
 }
+@font-face {
+    font-weight: normal;
+    font-family: "GamlangdeeRegular";
+    src: url("../fonts/GamlangdeeRegular-2opX.ttf");
+}
 .header {
     font-family: AAbsoluteEmpire;
+}
+
+.header__left {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    float: left;
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
     align-items: center;
 }
 
+.header__right {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
 .header a {
     margin-right: 20px;
     text-decoration: inherit;
-    color: black;
+    color: rgba(255,255,255,87);
     font-size: 15px;
 }
 .header a:hover {
     font-weight: bold;
-    color: #545454;
+    color: white;
     transition: text-shadow 0.5s;
-    text-shadow: gray;
+    text-shadow: forestgreen;
 }
 
 .header img {

@@ -1,5 +1,35 @@
+@font-face {
+    font-weight: normal;
+    font-family: "GamlangdeeRegular";
+    src: url("../fonts/GamlangdeeRegular-2opX.ttf");
+}
 .home {
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+.home__header {
+    color: white;
+}
+.home__body {
+    background: #000;
+    min-height: 400vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/metaterwebsitehomebanner.png");
+    color: white;
+    font-family: GamlangdeeRegular;
+}
+.home__body h1 {
+    position: relative;
+    top: 200px
+}
+
+.metatertextimage {
+    position: relative;
+    top: 3%;
+    display: block;
+    margin: 0 auto;
+    content:url("../images/homepagelogotext.png");
+    background-size: 500px 100px;
 }

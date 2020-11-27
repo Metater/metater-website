@@ -8,9 +8,9 @@ function Home() {
             <div className='home__header'>
                 <Header />
             </div>
-
             <div className='home__body'>
-                <h1>This is a homepage</h1>
+                <div className='metatertextimage' />
+                <h1>I make games, make things and play games!</h1>
             </div>
         </div>
     )
