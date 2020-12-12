@@ -8,6 +8,9 @@ import Games from './pages/projects/games/Games';
 import Utils from './pages/projects/utils/Utils';
 import Other from './pages/projects/other/Other';
 
+import CateringCalamity from './pages/projects/games/catering-calamity/CateringCalamity'
+import TrickOrTruth from './pages/projects/games/trick-or-truth/TrickOrTruth'
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +25,12 @@ function App() {
                     <Route exact path="/games/efficaxgame">
                         <Header />
                         <h1>Efficax gamer stuff</h1>
+                    </Route>
+                    <Route exact path="/games/catering-calamity">
+                        <CateringCalamity />
+                    </Route>
+                    <Route exact path="/games/trick-or-truth">
+                        <TrickOrTruth />
                     </Route>
                 <Route exact path="/apps">
                     <Apps />
