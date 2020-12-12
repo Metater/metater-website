@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
-import Home from './pages/Home';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from './components/Header';
+
+import './App.css';
+
+import Home from './pages/Home';
 import Apps from './pages/projects/apps/Apps';
 import Games from './pages/projects/games/Games';
 import Utils from './pages/projects/utils/Utils';
 import Other from './pages/projects/other/Other';
+
+import Header from './components/Header';
 
 import CateringCalamity from './pages/projects/games/catering-calamity/CateringCalamity'
 import TrickOrTruth from './pages/projects/games/trick-or-truth/TrickOrTruth'
