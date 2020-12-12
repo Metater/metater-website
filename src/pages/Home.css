@@ -33,3 +33,11 @@
     content:url("../images/homepagelogotext.png");
     background-size: 500px 100px;
 }
+
+.gitHub {
+    padding-top: 250px;
+}
+.gitHub h2 {
+    font-family: GamlangdeeRegular;
+    font-weight: normal;
+}
