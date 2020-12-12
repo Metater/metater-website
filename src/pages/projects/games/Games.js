@@ -3,6 +3,7 @@ import './Games.css';
 import Header from '../../../components/Header';
 import TrickOrTruthPic from '../../../images/trick-or-truth-pic.png'
 import CateringCalamityPic from '../../../images/catering-calamity-pic.png'
+import {Link} from "react-router-dom";
 
 function Home() {
     return (
@@ -12,12 +13,12 @@ function Home() {
             </div>
             <div className='template__body'>
                 <h1>Here are the games I have made with Vindico and jmanholt929!</h1>
-                <a href="games/trick-or-truth">
+                <Link to="trick-or-truth">
                     <img src={TrickOrTruthPic} className="trickOrTruthLink" />
-                </a>
-                <a href="games/catering-calamity">
+                </Link>
+                <Link to="catering-calamity">
                     <img src={CateringCalamityPic} className="cateringCalamityLink" />
-                </a>
+                </Link>
             </div>
         </div>
     )

@@ -26,10 +26,10 @@ function App() {
                         <Header />
                         <h1>Efficax gamer stuff</h1>
                     </Route>
-                    <Route exact path="/games/catering-calamity">
+                    <Route exact path="/catering-calamity">
                         <CateringCalamity />
                     </Route>
-                    <Route exact path="/games/trick-or-truth">
+                    <Route exact path="/trick-or-truth">
                         <TrickOrTruth />
                     </Route>
                 <Route exact path="/apps">
