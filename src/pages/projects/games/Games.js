@@ -13,10 +13,10 @@ function Home() {
             </div>
             <div className='template__body'>
                 <h1>Here are the games I have made with Vindico and jmanholt929!</h1>
-                <Link to="trick-or-truth">
+                <Link to="games/trick-or-truth">
                     <img src={TrickOrTruthPic} className="trickOrTruthLink" />
                 </Link>
-                <Link to="catering-calamity">
+                <Link to="games/catering-calamity">
                     <img src={CateringCalamityPic} className="cateringCalamityLink" />
                 </Link>
             </div>
