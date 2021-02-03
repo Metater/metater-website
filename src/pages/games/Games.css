@@ -1,7 +1,7 @@
 @font-face {
     font-weight: normal;
     font-family: "GamlangdeeRegular";
-    src: url("../../../../fonts/GamlangdeeRegular-2opX.ttf");
+    src: url("../../fonts/GamlangdeeRegular-2opX.ttf");
 }
 .template {
     display: flex;
@@ -14,9 +14,10 @@
 .template__body {
     background: #000;
     min-height: 400vh;
+    padding-top: 80px;
     background-size: cover;
     background-position: center;
-    background-image: url("../../../../images/generalbg.png");
+    background-image: url("../../images/generalbg.png");
     color: white;
     font-family: GamlangdeeRegular;
 }
@@ -30,7 +31,7 @@
     top: 3%;
     display: block;
     margin: 0 auto;
-    content:url("../../../../images/generalbg.png");
+    content:url("../../images/generalbg.png");
     background-size: 500px 100px;
 }
 .template__body iframe {

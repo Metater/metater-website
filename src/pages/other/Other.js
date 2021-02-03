@@ -1,6 +1,6 @@
 import React from 'react';
-import './Apps.css';
-import Header from '../../../components/Header';
+import './Other.css';
+import Header from '../../components/Header';
 
 function Home() {
     return (
@@ -10,12 +10,10 @@ function Home() {
             </div>
             <div className='template__body'>
                 <div className='generalbg' />
-                <h1>I have all my non-web apps here!</h1>
+                <h1>I have all my other projects here!</h1>
             </div>
         </div>
     )
 }
 
 export default Home;
-
-//This includes Nummus, Memini a    nd Verrat!

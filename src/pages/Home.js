@@ -15,7 +15,7 @@ function Home() {
                 <div className='gitHub'>
                     <h2>GitHub</h2>
                     <a href='https://github.com/Metater'>
-                        <img src={GitHubPic} className="gitHubLink" />
+                        <img src={GitHubPic} className="gitHubLink" alt="GitHubPic"/>
                     </a>
                 </div>
             </div>

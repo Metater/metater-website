@@ -22,7 +22,7 @@
 }
 .template__body h1 {
     position: relative;
-    top: 200px
+    top: 10px
 }
 
 .template__image {
@@ -32,4 +32,7 @@
     margin: 0 auto;
     content:url("../../../images/generalbg.png");
     background-size: 500px 100px;
+}
+.template__body iframe {
+    padding-top: 200px;
 }

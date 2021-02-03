@@ -4,15 +4,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
 import Home from './pages/Home';
-import Apps from './pages/projects/apps/Apps';
-import Games from './pages/projects/games/Games';
-import Utils from './pages/projects/utils/Utils';
-import Other from './pages/projects/other/Other';
+import Apps from './pages/apps/Apps';
+import Games from './pages/games/Games';
+import Utils from './pages/utils/Utils';
+import Other from './pages/other/Other';
 
 import Header from './components/Header';
 
-import CateringCalamity from './pages/projects/games/catering-calamity/CateringCalamity'
-import TrickOrTruth from './pages/projects/games/trick-or-truth/TrickOrTruth'
+import CateringCalamity from './pages/games/catering-calamity/CateringCalamity'
+import TrickOrTruth from './pages/games/trick-or-truth/TrickOrTruth'
+import AnArmForAHook from './pages/games/an-arm-for-a-hook/AnArmForAHook'
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
                     </Route>
                     <Route exact path="/games/trick-or-truth">
                         <TrickOrTruth />
+                    </Route>
+                    <Route exact path="/games/an-arm-for-a-hook">
+                        <AnArmForAHook />
                     </Route>
                 <Route exact path="/apps">
                     <Apps />
