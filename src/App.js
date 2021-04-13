@@ -14,6 +14,7 @@ import Header from './components/Header';
 import CateringCalamity from './pages/games/catering-calamity/CateringCalamity'
 import TrickOrTruth from './pages/games/trick-or-truth/TrickOrTruth'
 import AnArmForAHook from './pages/games/an-arm-for-a-hook/AnArmForAHook'
+import OldWestTycoon from "./pages/games/old-west-tycoon/OldWestTycoon";
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
                     </Route>
                     <Route exact path="/games/an-arm-for-a-hook">
                         <AnArmForAHook />
+                    </Route>
+                    <Route exact path="/games/old-west-tycoon">
+                        <OldWestTycoon />
                     </Route>
                 <Route exact path="/apps">
                     <Apps />

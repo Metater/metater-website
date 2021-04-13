@@ -1,6 +1,7 @@
 import React from 'react';
 import './Games.css';
 import Header from '../../components/Header';
+import OldWestTycoonPic from '../../images/old-west-tycoon.png'
 import AnArmForAHookPic from '../../images/an-arm-for-a-hook.png'
 import TrickOrTruthPic from '../../images/trick-or-truth-pic.png'
 import CateringCalamityPic from '../../images/catering-calamity-pic.png'
@@ -14,6 +15,9 @@ function Home() {
             </div>
             <div className='template__body'>
                 <h1>Here are the games I have made with Vindico and jmanholt929!</h1>
+                <Link to="games/old-west-tycoon">
+                    <img src={OldWestTycoonPic} className="oldWestTycoonLink" alt="OldWestTycoonPic"/>
+                </Link>
                 <Link to="games/an-arm-for-a-hook">
                     <img src={AnArmForAHookPic} className="anArmForAHookLink" alt="AnArmForAHookPic"/>
                 </Link>

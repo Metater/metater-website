@@ -1,0 +1,38 @@
+@font-face {
+    font-weight: normal;
+    font-family: "GamlangdeeRegular";
+    src: url("../../../fonts/GamlangdeeRegular-2opX.ttf");
+}
+.template {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.template__header {
+    color: white;
+}
+.template__body {
+    background: #000;
+    min-height: 400vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../images/generalbg.png");
+    color: white;
+    font-family: GamlangdeeRegular;
+}
+.template__body h1 {
+    position: relative;
+    top: 10px
+}
+
+.template__image {
+    position: relative;
+    top: 3%;
+    display: block;
+    margin: 0 auto;
+    content:url("../../../images/generalbg.png");
+    background-size: 500px 100px;
+}
+.template__body iframe {
+    padding-top: 200px;
+}
